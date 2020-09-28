@@ -1,0 +1,48 @@
+﻿  Application.cpp
+  Engine.cpp
+  EventSystem.cpp
+  SDL_FPSTimer.cpp
+  Factory.cpp
+  ResourseLoader.cpp
+  json_api.cpp
+  LuaApi.cpp
+  Logger.cpp
+  SDLCamera.cpp
+  SDLInputSystem.cpp
+  SDLWindow.cpp
+  Box2DPhysics.cpp
+  SDLCollisionSystem.cpp
+  SDLRenderer.cpp
+  SDL_TextureAtlas.cpp
+  GameField.cpp
+  Tile.cpp
+  MovementComponent.cpp
+  ScriptComponent.cpp
+  Compiling...
+  Object.cpp
+  Scene.cpp
+  Generating code
+  All 2525 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Engine.vcxproj -> D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\x64\Release\Engine.exe
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_image\lib\x64\libjpeg-9.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_image\lib\x64\libpng16-16.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_image\lib\x64\libtiff-5.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_image\lib\x64\libwebp-4.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_image\lib\x64\SDL2_image.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_image\lib\x64\zlib1.dll
+  6 File(s) copied
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2\lib\x64\libfreetype-6.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2\lib\x64\SDL2.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2\lib\x64\SDL_ttf.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2\lib\x64\zlib1.dll
+  4 File(s) copied
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\libFLAC-8.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\libmikmod-2.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\libmodplug-1.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\libogg-0.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\libvorbis-0.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\libvorbisfile-3.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\SDL2_mixer.dll
+  D:\Work\School\Osipov_Vadim_301_Midpoint\Engine\Engine\SDL2_mixer\lib\x64\smpeg2.dll
+  8 File(s) copied

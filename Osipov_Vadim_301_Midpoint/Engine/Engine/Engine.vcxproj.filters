@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f1121630-5af1-42ce-ae07-c21e29bc943d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{bd825c8b-f3eb-42d7-b2a5-6869ae0dfa07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{89b34954-640f-4294-878b-c8adf6454d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{6cdb246c-65ce-470c-86e4-80db056f7aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Factory">
+      <UniqueIdentifier>{648e8403-2f62-4973-bf10-495d2131d21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer\Virtuals">
+      <UniqueIdentifier>{557ce08b-9609-4576-8f6b-b66ade79e568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer\Implementation">
+      <UniqueIdentifier>{a17821ac-dbb2-446d-a50f-15bf7733ff05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer\Implementation\SDL">
+      <UniqueIdentifier>{c106c5bd-7f48-4115-8014-9f57c5dbc141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS">
+      <UniqueIdentifier>{dfe77eea-15b3-4a4c-91ba-132ea01ec059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS\Window">
+      <UniqueIdentifier>{f1efb8f7-9ca7-4d5d-af01-10bbb3130d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS\Window\Virtuals">
+      <UniqueIdentifier>{73e67266-9132-43b5-ab95-018513038ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS\Window\Implementation">
+      <UniqueIdentifier>{e3d6ad73-5902-4c0f-86fa-3203f0ebeea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS\Console">
+      <UniqueIdentifier>{0eb435b8-09e6-4220-825a-baa49c37918f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Event System">
+      <UniqueIdentifier>{4cdd2ff1-1a49-4416-9547-051d467ada19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\JSON">
+      <UniqueIdentifier>{713488fa-ca5c-4491-bfc4-8df6a15668c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{434e14b6-b7a2-4e33-855c-968afc8c1996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{bf463eeb-267b-4b37-ae86-6cf963ffefd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameField">
+      <UniqueIdentifier>{6f454a12-aede-4c49-8192-e646abcf4cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Event System\ConcreteEvents">
+      <UniqueIdentifier>{dfbeb149-ec45-4b02-9516-aee2fd6e77b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Factory\Resource">
+      <UniqueIdentifier>{ac010dc6-c094-4456-939c-874db2c16633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameField\Tile">
+      <UniqueIdentifier>{e43254db-2ba9-4d74-a379-b1aad0b8e7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS\Window\Implementation\Input">
+      <UniqueIdentifier>{c521f434-da58-4689-b8fe-1e05b0d7320b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OS\Window\Implementation\Camera">
+      <UniqueIdentifier>{7adbbbee-a267-4138-9ad9-f66083ffd75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\LUA">
+      <UniqueIdentifier>{6aba3a6e-d4f1-49be-800f-fcce3745554b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Factory\Resource\Configs">
+      <UniqueIdentifier>{1b0444a1-3c00-4968-97eb-405c24f11022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics">
+      <UniqueIdentifier>{189e4d56-77db-40ec-8bd7-aed275559a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics\Implementation">
+      <UniqueIdentifier>{15bf5da0-fbdc-4604-800f-ddb861d90bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{3376ab7b-0cd1-4c52-8b62-276b212400f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Transform">
+      <UniqueIdentifier>{f76eb96d-ece9-4132-9e92-7194b40bc8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Component">
+      <UniqueIdentifier>{3b0c88fb-e7d2-4916-9a69-c8a90e790028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Component\Concrete">
+      <UniqueIdentifier>{1b2b8ee6-540c-44aa-8c77-fe60d19e542b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\FPSTimer">
+      <UniqueIdentifier>{851bc083-2518-46bc-87f5-2befb0c991b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\FPSTimer\Implementation">
+      <UniqueIdentifier>{9fd837f9-2ae6-41bc-8e91-96324f4b105d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Engine\Engine.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\Implementation\SDL\SDLRenderer.cpp">
+      <Filter>Core\Renderer\Implementation\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OS\Window\Implementation\SDLWindow.cpp">
+      <Filter>Core\OS\Window\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OS\Console\Logger.cpp">
+      <Filter>Core\OS\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\Event System\EventSystem.cpp">
+      <Filter>Core\Engine\Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameField\GameField.cpp">
+      <Filter>Game\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Factory\Factory.cpp">
+      <Filter>Core\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\JSON\json_api.cpp">
+      <Filter>Core\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Factory\Resource\ResourseLoader.cpp">
+      <Filter>Core\Factory\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\Implementation\SDL\SDL_TextureAtlas.cpp">
+      <Filter>Core\Renderer\Implementation\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameField\Tile\Tile.cpp">
+      <Filter>Game\GameField\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OS\Window\Implementation\Input\SDLInputSystem.cpp">
+      <Filter>Core\OS\Window\Implementation\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\OS\Window\Implementation\Camera\SDLCamera.cpp">
+      <Filter>Core\OS\Window\Implementation\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\LUA\LuaApi.cpp">
+      <Filter>Core\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Physics\Implementation\Box2DPhysics.cpp">
+      <Filter>Core\Physics\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Physics\Implementation\SDLCollisionSystem.cpp">
+      <Filter>Core\Physics\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Object.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Component\Concrete\MovementComponent.cpp">
+      <Filter>Game\Object\Component\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Component\Concrete\ScriptComponent.cpp">
+      <Filter>Game\Object\Component\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Engine\FPSTimer\Implementation\SDL_FPSTimer.cpp">
+      <Filter>Core\Engine\FPSTimer\Implementation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Engine\Engine.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ApplicationStates.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UtilMacros.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Implementation\SDL\SDLRenderer.h">
+      <Filter>Core\Renderer\Implementation\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Config.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Virtuals\IRendererDevice.h">
+      <Filter>Core\Renderer\Virtuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OS\Window\Virtuals\IWindow.h">
+      <Filter>Core\OS\Window\Virtuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OS\Window\Implementation\SDLWindow.h">
+      <Filter>Core\OS\Window\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OS\Console\Logger.h">
+      <Filter>Core\OS\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\EventSystem.h">
+      <Filter>Core\Engine\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\EventListener.h">
+      <Filter>Core\Engine\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\Event.h">
+      <Filter>Core\Engine\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\JSON\json.hpp">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameField\GameField.h">
+      <Filter>Game\GameField</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Factory\Factory.h">
+      <Filter>Core\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\JSON\json_api.h">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnMouseClick.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\EventTypes.h">
+      <Filter>Core\Engine\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Factory\Resource\ResourseLoader.h">
+      <Filter>Core\Factory\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Virtuals\ITextureAtlas.h">
+      <Filter>Core\Renderer\Virtuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Implementation\SDL\SDL_TextureAtlas.h">
+      <Filter>Core\Renderer\Implementation\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameField\Tile\Tile.h">
+      <Filter>Game\GameField\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnObjectCreated.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnGameFieldCreated.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnSceneCreated.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OS\Window\Implementation\Input\SDLInputSystem.h">
+      <Filter>Core\OS\Window\Implementation\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\OS\Window\Implementation\Camera\SDLCamera.h">
+      <Filter>Core\OS\Window\Implementation\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnGameWindowClosed.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\LUA\LuaApi.h">
+      <Filter>Core\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnKeyboardInput.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnPrefabCreated.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnCreateGameObjectRequested.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnDestroyGameObjectRequested.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Factory\Resource\Config\Config.h">
+      <Filter>Core\Factory\Resource\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnCloseGameRequested.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Physics\PhysicsSystem.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Physics\Implementation\Box2DPhysics.h">
+      <Filter>Core\Physics\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Physics\Implementation\SDLCollisionSystem.h">
+      <Filter>Core\Physics\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Object.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Transform\Transform.h">
+      <Filter>Game\Object\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Component\Component.h">
+      <Filter>Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Component\ComponentTypes.h">
+      <Filter>Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Component\Concrete\MovementComponent.h">
+      <Filter>Game\Object\Component\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Component\Concrete\ScriptComponent.h">
+      <Filter>Game\Object\Component\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\FPSTimer\FPSTimer.h">
+      <Filter>Core\Engine\FPSTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\FPSTimer\Implementation\SDL_FPSTimer.h">
+      <Filter>Core\Engine\FPSTimer\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Engine\Event System\ConcreteEvents\EventOnMarqueeSelect.h">
+      <Filter>Core\Engine\Event System\ConcreteEvents</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

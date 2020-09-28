@@ -1,0 +1,7 @@
+{
+	"media_root": "Game/Source",
+	"map_files_folder": "/json_files/",
+	"tiled_map_file": "tiled_example_map.json",
+	"scripts_files_folder": "/scripts/",
+	"images_files_folder": "/images/"
+}
